@@ -1,6 +1,7 @@
 - name: test
   hosts: all
-  
+  var:
+    alias: from_playbook
   tasks:
   - name: debug
     debug:
